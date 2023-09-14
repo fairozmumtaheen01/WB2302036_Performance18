@@ -1,0 +1,73 @@
+input:checked{
+    accent-color: red;
+            
+    }
+    input:enabled{
+        background-color: brown;
+    }
+    input:disabled{
+        background-color: orangered;
+    }
+    input:empty{
+        height:15px ;
+        width:150px ;
+        background-color: #f70404;
+    }
+    div p:first-of-type{
+        color: blueviolet;
+    }
+    input:focus{
+    color: aqua;
+    
+    
+    }
+    input:in-range{
+        border:2px solid green;
+        background-color:pink;
+    }
+    input:out-of-range{
+        border:2px solid yellow;
+        background-color: #fff;
+    }
+    input:valid{
+        color:aquamarine;
+        border:3px solid red;
+    
+    }
+    input:invalid{
+        color:green;
+        border:3px solid yellowgreen;
+        
+    }
+    .mainbox{
+        border:2px solid black;
+    height:400px;
+    width:500px;
+    
+    }
+    .subbox{
+        height:600px;
+        width:500px;
+        border: 2px solid blue;
+    
+    }
+    div :last-child {
+        color:green;
+    }
+    span:last-child{
+        color: purple;
+    }
+    div p:last-of-type{
+        color:red;
+    }
+    p{
+        color:green;
+    }
+    :not(p){
+        color:red;
+    }
+    div.main-box p:nth-child(2){
+    color:pink;
+    
+    
+    }
